@@ -1,0 +1,1 @@
+addSbtPlugin("org.jetbrains" % "        .filter(_ > n)sbt-ide-settings" % "1.1.0")
