@@ -1,8 +1,11 @@
 package com.dangiscoding
 package leetcode.easy
 
+import scala.annotation.tailrec
+
 object BinarySearch extends App {
   def search(nums: Array[Int], target: Int): Int = {
+    @tailrec
     def search(nums: Array[Int], target: Int, start: Int, end: Int): Int = {
       val mid = (start + end) / 2
       if (nums(mid) == target) return mid
